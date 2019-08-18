@@ -19,5 +19,5 @@ while z < lastL:
     print(texts[z], texts[z+1])
     z += 1
 
-    if len(texts[z]) == len(texts[z+1]):
+    if len(texts[z + 1]) == len(texts[z]):
         print('\tFOUND')
