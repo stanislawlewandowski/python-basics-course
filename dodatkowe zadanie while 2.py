@@ -11,7 +11,7 @@ listOfWords = text.split(' ')
 wordLength = 6
 longWords = 0
 shortWords = 0
-i = 0 
+i = 0
 while i < len(listOfWords):
     if len(listOfWords[i]) > wordLength:
         longWords += 1
